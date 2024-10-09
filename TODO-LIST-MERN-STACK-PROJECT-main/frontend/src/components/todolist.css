@@ -1,11 +1,10 @@
-/* Form Styling */
+
 .form-styling {
     background: #f7f9fc;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Floating Label Styling */
 .form-floating {
     position: relative;
 }
@@ -46,7 +45,7 @@
     color: #007bff;
 }
 
-/* Button Styling */
+
 .add-task-btn {
     background-color: #28a745;
     padding: 0.75rem;
@@ -62,7 +61,7 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Input focus */
+
 input:focus, select:focus {
     border-color: #007bff;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
