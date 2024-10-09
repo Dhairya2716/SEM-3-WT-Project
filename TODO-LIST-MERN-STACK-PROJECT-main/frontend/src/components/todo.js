@@ -13,7 +13,7 @@ function Todo() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [searchTerm, setSearchTerm] = useState("");
-    const [message, setMessage] = useState(""); // New: success/error messages
+    const [message, setMessage] = useState(""); 
 
     useEffect(() => {
         fetch('http://127.0.0.1:3001/getTodoList')
@@ -284,7 +284,7 @@ function Todo() {
                         <button
                             onClick={addTask}
                             className="btn btn-success btn-block"
-                            disabled={!newTask || !newStatus || !newDeadline} // Disable if fields are empty
+                            disabled={!newTask || !newStatus || !newDeadline}
                         >
                             Add Task
                         </button>
