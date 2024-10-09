@@ -1,0 +1,69 @@
+/* Form Styling */
+.form-styling {
+    background: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Label Styling */
+.form-floating {
+    position: relative;
+}
+
+.form-floating input,
+.form-floating select {
+    border-radius: 8px;
+    padding: 1.2rem 0.75rem;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.form-floating input:focus,
+.form-floating select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.form-floating label {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+    color: #6c757d;
+    pointer-events: none;
+}
+
+.form-floating input:not(:placeholder-shown) + label,
+.form-floating select:not(:placeholder-shown) + label,
+.form-floating input:focus + label,
+.form-floating select:focus + label {
+    top: -8px;
+    left: 0.75rem;
+    font-size: 0.85rem;
+    color: #007bff;
+}
+
+/* Button Styling */
+.add-task-btn {
+    background-color: #28a745;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-task-btn:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input focus */
+input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
