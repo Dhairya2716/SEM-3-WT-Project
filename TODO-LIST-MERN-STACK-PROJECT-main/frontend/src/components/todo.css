@@ -6,22 +6,12 @@ body {
      padding: 20px;
      border-radius: 8px;
      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-     animation: gradient-animation 10s ease infinite;   color: #fff; /* Ensure text is visible by changing color to white */
+     animation: gradient-animation 10s ease infinite;   color: #fff; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
-.todo-container {
-    /* background: linear-gradient(270deg, #ffc107, #15bbf7, #08f808);
-    background-size: 600% 600%;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation: gradient-animation 10s ease infinite; */
-}
 
-/* Animation for background gradient */
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -33,14 +23,6 @@ body {
         background-position: 0% 50%;
     }
 }
-
-/* Header styling */
-/* .header-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #007bff;
-    text-decoration: underline rgb(255, 55, 0) 3px;
-} */
 
 .header-title {
     font-size: 2.5rem;
@@ -57,7 +39,7 @@ body {
     width: 14px;
     height: 3px;
     background-color: rgb(255, 55, 0);
-    animation: underline-animation 2s ease-in-out infinite; /* Add animation */
+    animation: underline-animation 2s ease-in-out infinite;
 }
 
 @keyframes underline-animation {
@@ -65,13 +47,13 @@ body {
         width: 0;
     }
     100% {
-        width: 13%; /* Change to 100% to fill the entire width */
+        width: 13%; 
     }
 }
 
 
 
-/* Form section styling */
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -103,7 +85,7 @@ form button:hover {
     background-color: #c82333;
 }
 
-/* Card styling */
+
 .todo-list .card {
     background: #ffffff;
     border-radius: 10px;
@@ -127,7 +109,7 @@ form button:hover {
     color: #6c757d;
 }
 
-/* Status badge styling */
+
 .status-badge {
     font-weight: bold;
     padding: 5px 10px;
@@ -149,7 +131,7 @@ form button:hover {
     color: white;
 }
 
-/* Action buttons */
+
 .actions button {
     border-radius: 8px;
     transition: transform 0.2s ease, background-color 0.3s ease;
@@ -177,12 +159,12 @@ form button:hover {
     background-color: #c82333;
 }
 
-/* Add a bit of spacing between delete and edit buttons */
+
 .actions .btn-sm {
     margin-right: 8px;
 }
 
-/* Responsiveness */
+
 @media (max-width: 768px) {
     .todo-container {
         padding: 10px;
