@@ -1,4 +1,3 @@
-/* homepage.css */
 .home-container {
     position: relative;
     width: 100%;
@@ -10,7 +9,6 @@
     text-align: center;
 }
 
-/* Video Background */
 .background-video {
     position: absolute;
     top: 0;
@@ -21,7 +19,6 @@
     z-index: -1;
 }
 
-/* Content Styling */
 .content {
     z-index: 1;
     color: white;
